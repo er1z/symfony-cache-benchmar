@@ -1,0 +1,2 @@
+#!/bin/sh
+exec docker-compose exec --user=1000 backend zsh
